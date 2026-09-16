@@ -1,0 +1,32 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+
+# Датасет
+dataset/
+*.zip
+
+# Веса модели
+*.pth
+*.pt
+
+# Результаты
+gradcam_results/
+confusion_matrix.png
+learning_curves.png
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Системные
+.DS_Store
+Thumbs.db
